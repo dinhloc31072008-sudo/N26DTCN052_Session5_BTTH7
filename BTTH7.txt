@@ -1,0 +1,92 @@
+Phần 1: Sơ đồ chuỗi Prompt & Ứng dụng 3 kỹ thuậtPlaintext[DỮ LIỆU CỐ ĐỊNH: 150 SV | 1 ngày | Ngân sách ≤ 15 triệu | 10 nhân sự]
+       │
+       ├─ Kỹ thuật áp dụng: Prompt Chaining (chia nhỏ quy trình qua 5 bước)
+       ├─ Kỹ thuật áp dụng: Chain-of-Thought (bắt buộc suy luận từng bước ở mỗi prompt)
+       │
+       ▼
+┌────────────────────────────────────────────────────────┐
+│ PROMPT 1: Phân tích Tính khả thi & Đánh giá Rủi ro     │
+└──────┬─────────────────────────────────────────────────┘
+       │ Output 1: Báo cáo khả thi & Cấu trúc phân bổ nguồn lực
+       ▼
+┌────────────────────────────────────────────────────────┐
+│ PROMPT 2: Xây dựng Lịch trình & Phân bổ Không gian     │
+└──────┬─────────────────────────────────────────────────┘
+       │ Output 2: Timeline chi tiết từ sáng đến chiều
+       ▼
+┌────────────────────────────────────────────────────────┐
+│ PROMPT 3: Lập Dự toán Ngân sách Chi tiết               │
+└──────┬─────────────────────────────────────────────────┘
+       │ Output 3: Bảng cân đối tài chính (Khít giới hạn 15 triệu)
+       ▼
+┌────────────────────────────────────────────────────────┐
+│ PROMPT 4: Phân công Nhân sự & Kế hoạch Truyền thông    │
+└──────┬─────────────────────────────────────────────────┘
+       │ Output 4: Ma trận RACI cho 10 nhân sự & Kế hoạch 7 ngày
+       ▼
+┌────────────────────────────────────────────────────────┐
+│ PROMPT 5: Kiểm tra Thống nhất & Tạo Bản tóm tắt Ngữ cảnh│
+└──────┬─────────────────────────────────────────────────┘
+       │ Output 5: Báo cáo QA + Bản tóm tắt Context Management
+       ▼
+[KẾ HOẠCH SỰ KIỆN HOÀN CHỈNH]
+Phần 2: Bộ 5 Prompt liên tiếp (Prompt Chaining + Chain-of-Thought)Prompt 1: Phân tích Tính khả thi & Đánh giá Rủi roMarkdown# VAI TRÒ
+Bạn là Chuyên gia Quản lý Dự án Sự kiện Công nghệ (Event Project Manager).
+
+# THÔNG SỐ CỐ ĐỊNH (BẤT BIẾN)
+- Tên sự kiện: AI Innovation Day
+- Quy mô: 150 sinh viên.
+- Thời lượng: 1 ngày.
+- Ngân sách tối đa: 15.000.000 đồng.
+- Nhân sự tổ chức: 10 thành viên CLB.
+- Mục tiêu: Giúp sinh viên hiểu và trải nghiệm ứng dụng AI trong học tập và công việc.
+
+# YÊU CẦU KỸ THUẬT & NHIỆM VỤ (CHAIN-OF-THOUGHT)
+Hãy suy luận từng bước:
+1. Đánh giá tính khả thi tổng thể của sự kiện với nguồn lực (15 triệu, 10 nhân sự cho 150 khách tham gia).
+2. Phân tích các rủi ro cốt lõi (về tài chính, nhân sự trực sự kiện, thiết bị kỹ thuật/internet).
+3. Đề xuất nguyên tắc quản trị ngân sách và nhân sự để đảm bảo không bị vượt giới hạn.
+Prompt 2: Xây dựng Lịch trình Sự kiện trong 1 ngàyMarkdown# VAI TRÒ
+Bạn là Chuyên gia Vận hành Chương trình Sự kiện (Program Director).
+
+# ĐẦU VÀO TỪ BƯỚC 1 & DỮ LIỆU CỐ ĐỊNH
+- Quy mô: 150 sinh viên | 1 ngày | Ngân sách: 15 triệu | 10 nhân sự.
+- Mục tiêu: Trải nghiệm AI thực tế trong học tập & công việc.
+
+# NHIỆM VỤ (CHAIN-OF-THOUGHT)
+Xây dựng lịch trình chi tiết từ sáng đến chiều (từ 08:00 đến 17:00) cho 1 ngày sự kiện, bao gồm:
+1. Khung giờ, Tên hoạt động, Nội dung trọng tâm.
+2. Không gian/Địa điểm dự kiến trong trường (Hội trường / Phòng Workshop / Khu vực trải nghiệm).
+3. Sự phân bổ lực lượng 10 nhân sự tương ứng với từng khung giờ để đảm bảo không bị quá tải.
+Prompt 3: Lập Dự toán Ngân sách Chi tiếtMarkdown# VAI TRÒ
+Bạn là Trưởng ban Tài chính Sự kiện (Event Financial Officer).
+
+# ĐẦU VÀO TỪ BƯỚC 2
+- Lịch trình sự kiện 1 ngày cho 150 sinh viên đã được thiết lập ở bước trước.
+
+# NGUYÊN TẮC BẮT BUỘC
+- **Tuyệt đối không vượt tổng ngân sách 15.000.000 VNĐ.**
+- Phải phân bổ hợp lý các khoản: Hậu cần/Địa điểm, Truyền thông, Ăn uống/Teabreak cho khách & BTC, Quà tặng/Giải thưởng minigame, Dự phòng phát sinh.
+
+# NHIỆM VỤ
+Lập bảng dự toán ngân sách chi tiết gồm: Hạng mục, Đơn vị tính, Số lượng, Đơn giá dự kiến, Thành tiền và Ghi chú tối ưu chi phí.
+Prompt 4: Phân công Nhân sự & Kế hoạch Truyền thôngMarkdown# VAI TRÒ
+Bạn là Trưởng ban Nhân sự & Truyền thông Sự kiện.
+
+# ĐẦU VÀO TỪ BƯỚC 2 & 3
+- 10 nhân sự tổ chức, lịch trình sự kiện 1 ngày và ngân sách đã được phê duyệt.
+
+# NHIỆM VỤ
+1. **Phân công 10 nhân sự:** Chia thành 3 tiểu ban (Hậu cần - Kỹ thuật, Truyền thông - Sự kiện, Đối ngoại - Điều phối) kèm danh mục công việc cụ thể (RACI).
+2. **Kế hoạch truyền thông trước sự kiện (7 ngày):** Lịch đăng bài, kênh triển khai (Group Facebook, Fanpage trường, TikTok CLB) nhằm thu hút đúng 150 sinh viên tham gia.
+Prompt 5: Kiểm tra Thống nhất & Tạo Bản tóm tắt Ngữ cảnh (QA & Context Management)Markdown# VAI TRÒ
+Bạn là Quản lý Chất lượng Tổng thể (QA Director).
+
+# ĐẦU VÀO
+Toàn bộ kết quả từ Prompt 1 đến Prompt 4 (Phân tích khả thi, Lịch trình, Ngân sách 15 triệu, Phân công 10 nhân sự, Kế hoạch truyền thông).
+
+# NHIỆM VỤ
+1. **Kiểm tra tính thống nhất (Cross-check):** Đối chiếu xem ngân sách có vượt 15 triệu không? 10 nhân sự có đủ vận hành 150 sinh viên không? Các mốc thời gian có khớp nhau không?
+2. **Xử lý sự cố/Hiệu chỉnh:** Nếu có điểm vênh, tự động điều chỉnh cho khớp.
+3. **Tạo Bản tóm tắt Ngữ cảnh (Context Management Summary):** Viết một đoạn tóm tắt cốt lõi ngắn gọn để làm "dữ liệu nền" cho các phiên làm việc tiếp theo của dự án mà không cần lặp lại toàn bộ thông tin cũ.
+Phần 3: Kết quả đầu ra chi tiết của sự kiện1. Bản phân tích tính khả thiĐánh giá tổng quan: Sự kiện quy mô 150 sinh viên với ngân sách 15.000.000 VNĐ trong 1 ngày là hoàn toàn khả thi (tương đương khoảng 100.000 VNĐ/người tham gia). Con số này đủ để tổ chức tại hội trường/phòng học lớn của trường, chuẩn bị teabreak nhẹ và phần quà công nghệ hấp dẫn.Bài toán nhân sự (10 người cho 150 sinh viên): Tỷ lệ hỗ trợ là 1:15, đây là tỷ lệ an toàn nếu phân định rõ vai trò (3 kỹ thuật/hậu cần, 3 điều phối/MC, 2 truyền thông/check-in, 2 quản lý chung).Rủi ro cốt lõi & Giải pháp:Rủi ro sự cố mạng/thiết bị: Yêu cầu sinh viên mang theo laptop cá nhân đã cài sẵn các công cụ AI phổ biến (ChatGPT, Claude, v.v.), chuẩn bị sẵn phương án dự phòng kết nối 4G/Wifi trường.Rủi ro vượt ngân sách: Khóa cứng các chi phí thiết kế, in ấn bằng cách tận dụng kênh online, ưu tiên tài trợ hiện vật từ các bên đối tác công nghệ.2. Lịch trình sự kiện trong một ngày (AI Innovation Day)Khung giờHoạt độngNội dung trọng tâmĐịa điểmPhân công phụ trách08:00 – 08:30Đón khách & Check-inĐiểm danh 150 sinh viên, phát tài liệu/thẻ đeo, ổn định chỗ ngồi.Sảnh hội trườngNhân sự Truyền thông & Lễ tân (2 người)08:30 – 09:00Khai mạc sự kiệnTuyên bố lý do, giới thiệu mục tiêu "AI trong học tập và công việc".Hội trường chínhMC & Trưởng ban Tổ chức (2 người)09:00 – 10:30Keynote / TalkshowChia sẻ từ chuyên gia/khách mời về xu hướng ứng dụng AI thực chiến.Hội trường chínhBan Điều phối & Kỹ thuật (3 người)10:30 – 10:45Nghỉ giải lao (Teabreak)Giao lưu networking, thưởng thức bánh ngọt và nước uống nhẹ.Khu vực sảnhBan Hậu cần (2 người)10:45 – 12:00Workshop thực chiến phần 1Hướng dẫn sử dụng Prompt Engineering trong học tập (làm slide, tóm tắt tài liệu, lập kế hoạch).Hội trường chínhGiảng viên hướng dẫn & Kỹ thuật (3 người)12:00 – 13:30Nghỉ trưaNghỉ ngơi tự do cho sinh viên và BTC.Khu vực căn tin-13:30 – 15:30Hackathon Mini / Thử thách nhómChia 150 sinh viên thành các nhóm nhỏ thực hiện thử thách "Giải quyết bài toán thực tế bằng AI" trong 90 phút.Phòng Workshop lớnToàn bộ 10 nhân sự hỗ trợ các nhóm15:30 – 16:30Trình bày sản phẩm & Chấm điểmCác nhóm lên demo sản phẩm/giải pháp AI, Ban giám khảo chấm điểm và nhận xét.Hội trường chínhBan Giám khảo & Điều phối (4 người)16:30 – 17:00Tổng kết & Trao giảiCông bố kết quả, trao giải thưởng cho các đội xuất sắc, chụp ảnh lưu niệm và bế mạc.Hội trường chínhBan Tổ chức (Toàn bộ 10 người)3. Bảng dự toán ngân sách (Giới hạn tối đa 15.000.000 VNĐ)SttHạng mục chi tiếtĐơn vị tínhSố lượngĐơn giá dự kiến (VNĐ)Thành tiền (VNĐ)Ghi chú tối ưuIHậu cần & Địa điểm3.000.0001Thuê/mượn thiết bị âm thanh, ánh sángGói12.000.0002.000.000Tận dụng hội trường trường (ưu tiên giảm phí)2Backdrop sân khấu, standee check-inCái/Bộ2500.0001.000.000In bạt hiflex kích thước vừa phảiIIẨm thực & Teabreak4.500.0003Teabreak giữa giờ (Bánh ngọt, trà, trái cây cho 150 SV + 10 BTC)Suất16025.0004.000.000Đặt tiệc ngọt dạng hộp/khay tiết kiệm4Nước suối đóng chai (Sự kiện cả ngày)Thùng5100.000500.000Mua sỉ phục vụ khách và BTCIIIQuà tặng & Giải thưởng Mini5.500.0005Giải thưởng Hackathon Mini (Nhất, Nhì, Ba)Gói3 giải1.500.0004.500.000Quà hiện vật (voucher khóa học, phụ kiện công nghệ)6Quà minigame / Đặt câu hỏi tương tácPhần10100.0001.000.000Sổ tay, bút công nghệ cho sinh viênIVDự phòng phát sinh (10%)2.000.000Chi phí an toànTỔNG CỘNG15.000.000Đúng bằng giới hạn ngân sách4. Bảng phân công 10 nhân sự (Ma trận RACI)STTHọ tên / Vị tríTiểu banNhiệm vụ chính trong sự kiệnVai trò (RACI)1Nhân sự 1Ban Tổng quảnTrưởng ban Tổ chức, điều phối chung, làm việc với nhà trường/đơn vị tài trợ.Accountable (Chịu trách nhiệm chính)2Nhân sự 2Ban Tài chínhQuản lý ngân sách, mua sắm vật phẩm, thanh toán hóa đơn.Responsible (Thực hiện)3Nhân sự 3Ban Kỹ thuậtKiểm tra âm thanh, ánh sáng, máy chiếu, kết nối mạng hội trường.Responsible (Thực hiện)4Nhân sự 4Ban Kỹ thuậtHỗ trợ kỹ thuật phần mềm AI, xử lý sự cố thiết bị sinh viên trong Workshop.Responsible (Thực hiện)5Nhân sự 5Ban Nội dungXây dựng kịch bản chương trình, slide thuyết trình, đề thi Hackathon Mini.Responsible (Thực hiện)6Nhân sự 6Ban Nội dung & MCDẫn chương trình (MC chính), kết nối các phần trong sự kiện.Responsible (Thực hiện)7Nhân sự 7Ban Truyền thôngThiết kế ấn phẩm truyền thông (poster, standee, bài đăng Facebook/TikTok).Responsible (Thực hiện)8Nhân sự 8Ban Truyền thôngQuay phim, chụp ảnh, viết bài tổng kết sự kiện trong và sau chương trình.Responsible (Thuring)9Nhân sự 9Ban Hậu cầnPhụ trách check-in, điều phối teabreak, chuẩn bị quà tặng và thẻ đeo.Responsible (Thực hiện)10Nhân sự 10Ban Hậu cầnĐiều phối trật tự phòng họp, hỗ trợ các nhóm trong phần thi Hackathon.Responsible (Thực hiện)5. Kế hoạch truyền thông trước sự kiện (7 ngày)NgàyKênh triển khaiNội dung bài viết / Thông điệpMục tiêuNgày 7Fanpage CLB & Group SVTeaser hé lộ sự kiện công nghệ lớn nhất năm: "AI Innovation Day".Gây tò mò, thông báo thời gian/địa điểm.Ngày 6Fanpage CLBGiới thiệu dàn diễn viên/chuyên gia khách mời và chủ đề workshop thực chiến.Tạo độ uy tín cho sự kiện.Ngày 5TikTok / ReelsVideo ngắn 30s: "Bạn đã biết cách dùng AI để tiết kiệm 3 tiếng làm bài tập mỗi ngày chưa?"Đánh trúng nỗi đau sinh viên.Ngày 4Group SV các khoaMở cổng đăng ký giữ chỗ (Giới hạn đúng 150 suất tham gia miễn phí).Đẩy mạnh lượng đăng ký.Ngày 3Fanpage CLBCông bố tổng giá trị giải thưởng phần thi Hackathon Mini (Lên đến 4.500.000 VNĐ).Kích thích tính cạnh tranh và tham gia.Ngày 2Email / Nhóm ZaloGửi thông báo xác nhận tham gia kèm checklist chuẩn bị (Laptop đã sạc, cài sẵn tài khoản AI).Nhắc lịch sinh viên.Ngày 1Tất cả các kênhBài đăng đếm ngược: "Ngày mai chính thức bùng nổ AI Innovation Day!"Nhắc nhở lần cuối, chuẩn bị đón khách.6. Bản tóm tắt Ngữ cảnh Dự án (Context Management Summary)[AI INNOVATION DAY CONTEXT BLOCK]Project: AI Innovation Day | Scale: 150 students, 10 staff members, 1-day duration.Budget: Hard cap at 15,000,000 VND (Fully balanced across Logistics: 3M, Teabreak: 4.5M, Prizes/Gifts: 5.5M, Buffer: 2M).Timeline: Full-day event from 08:00 to 17:00, featuring Keynote, Teabreak, Prompt Engineering Workshop, and Mini Hackathon.Staff Allocation: 10 members mapped via RACI matrix into Logistics-Tech, Content-MC, Media, and Operations.Status: Feasibility verified, budget locked, communication plan ready for execution.7. Báo cáo kiểm tra và hiệu chỉnh kế hoạch (QA Report)Kiểm tra tài chính: Tổng chi phí dự toán là đúng 15.000.000 VNĐ, không có khoản chi vượt mức. Đã có khoản dự phòng 10% (2.000.000 VNĐ) xử lý rủi ro phát sinh.Kiểm tra nhân sự: 10 nhân sự được phân bổ rõ ràng theo tiểu ban, đảm bảo tỷ lệ hỗ trợ tốt cho 150 sinh viên trong phần thi Hackathon chiều.Hiệu chỉnh kỹ thuật: Đã bổ sung bước kiểm tra hạ tầng mạng và chuẩn bị sẵn phương án dùng laptop cá nhân để tránh tình trạng quá tải Wi-Fi hội trường trong cùng một thời điểm.
